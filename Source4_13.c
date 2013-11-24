@@ -19,7 +19,7 @@ void reverse(char s [])
 
 void main()
 {
-	char s[] = "kkk", ss[] = "sami";
+	char s[] = "", ss[] = "sami";
 	reverse(s);
 	printf("%s\n", s);
 	reverse(ss);
