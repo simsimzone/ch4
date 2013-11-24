@@ -12,11 +12,15 @@ void reverse(char s [])
 		return;
 	reverse(s);
 	s[len - i - 2] = c;
+	if (i == 0)
+		len = 0;
 }
 
 void main()
 {
-	char s[] = "sami abdelgadir";
+	char s[] = "sami";
+	reverse(s);
+	printf("%s\n", s);
 	reverse(s);
 	printf("%s\n", s);
 	getchar();
